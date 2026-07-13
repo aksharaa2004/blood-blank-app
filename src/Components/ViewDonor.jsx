@@ -44,7 +44,7 @@ const ViewDonor = () => {
                                     <p class="card-text">{value.last_donation_date}</p>
                                   
                                     
-                                    <a href="#" class="btn btn-primary">Add</a>
+                                    <a href="#" className="btn btn-primary">Add</a>
                                 </div>
                                 </div>
                         </div>
