@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const AddBllod = () => {
+const AddDonor = () => {
   const [input, changeInput] = useState({
     id: "",
     donor_name: "",
@@ -168,4 +168,4 @@ const AddBllod = () => {
   );
 };
 
-export default AddBllod;
+export default AddDonor;
