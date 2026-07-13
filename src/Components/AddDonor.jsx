@@ -3,7 +3,7 @@ import axios from "axios";
 
 const AddDonor = () => {
   const [input, changeInput] = useState({
-    id: "",
+    
     donor_name: "",
     age: "",
     gender: "",
@@ -12,8 +12,8 @@ const AddDonor = () => {
     email: "",
     city: "",
     weight_kg: "",
-    last_donation_date: "",
-    created_at: "",
+    last_donation_date: ""
+    
   });
 
   const inputHandler = (event) => {
@@ -32,10 +32,7 @@ const AddDonor = () => {
         console.log(response.data);
         alert("Donor added successfully");
       })
-      .catch((error) => {
-        console.log(error.response);
-        alert("Failed to add donor");
-      });
+      .catch();
   };
 
   return (
