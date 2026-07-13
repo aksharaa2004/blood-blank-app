@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const ViewDonor = () => {
     const[data,changeData]=useState([])
@@ -19,6 +20,7 @@ const ViewDonor = () => {
 
   return (
     <div>
+        <NavBar/>
        
         <div className="container">
             <div className="row">

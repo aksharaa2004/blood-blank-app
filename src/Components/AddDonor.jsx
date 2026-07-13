@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import NavBar from "./NavBar";
 
 const AddDonor = () => {
   const [input, changeInput] = useState({
@@ -36,7 +37,9 @@ const AddDonor = () => {
   };
 
   return (
+    
     <div className="container mt-4">
+        <NavBar/>
       <div className="row g-3">
 
         <div className="col-md-6">
